@@ -34,7 +34,12 @@ set hidden
 colorscheme twilight
 
 "Set font type and size. Depends on the resolution. Larger screens, prefer h15
+"Use second notation if you are on a Linux system 
+"(ref: http://stackoverflow.com/questions/3539437/gvim-ubuntu-letter-spacing-consolas-font)
 set guifont=Monaco:h18
+"set guifont=Monaco\ 18
+
+
 
 "Tab stuff
 set tabstop=3
